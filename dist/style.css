@@ -144,7 +144,9 @@ body {
     height: 100%;
     object-fit: cover;
 }
-
+i{
+    cursor: pointer;
+}
 
 /*media query for mobile*/
 @media screen and (max-width: 600px) {
@@ -208,10 +210,18 @@ body {
         height: 100%;
         object-fit: cover;
     }
-    .user-icon {
+    .fourth .user-icon {
         margin: auto;
-        margin-left: 80%;
+        margin-left: 95% !important;
 
+    }
+    .third .user-icon {
+        margin: auto;
+        margin-left: 105%;
+
+    }
+    .p-10 {
+        padding: 2rem 2rem;
     }
 }
 
